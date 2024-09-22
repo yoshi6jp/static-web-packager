@@ -1,0 +1,14 @@
+{
+  "name": "static-web-packager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx http-server .",
+    "build": "npx @electron/packager .",
+    "build:f": "npx @electron/packager --overwrite ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
